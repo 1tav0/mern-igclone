@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Grand+Hotel&family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+
+.logo{
+    font-family: 'Grand Hotel', cursive;
+}
+
+.right_side{
+    display: flex;
+    align-items: center;
+}
+
+.right_side > p{
+    margin-right: 10px;
+}
+
+.profile_pic{
+    height: 25px !important;
+    width: 25px !important;
+    margin-right: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
