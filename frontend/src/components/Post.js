@@ -1,19 +1,27 @@
 import React from 'react'
 import './Post.css'
+import Avatar from '@mui/material/Avatar';
 
-const Post = () => {
+const Post = ({ username, caption, imageUrl}) => {
   return (
     <div className="post">
-          <h3>username</h3>
-          <img 
-            className='post__image'
-            src="https://therealchamps.com/wp-content/uploads/getty-images/2017/07/947096288.jpeg" 
-            alt="" 
-          />
-          <h4 className='post__text'>
-              <strong>1tav0</strong>
-              This is some text
-          </h4>
+      <div className="post__header">
+        <Avatar
+          className='post__avatar'
+          alt='tavo'
+          src=''
+        />
+        <h3>{username}</h3>
+      </div>
+      <img 
+        className='post__image'
+        src={imageUrl} 
+        alt="" 
+      />
+      <h4 className='post__text'>
+          <strong>{username} </strong>
+          {caption}
+      </h4>
     </div>
   )
 }
