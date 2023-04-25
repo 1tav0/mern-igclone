@@ -10,10 +10,6 @@
     align-items: center;
 }
 
-.right_side > p{
-    margin-right: 10px;
-}
-
 .profile_pic{
     height: 25px !important;
     width: 25px !important;
@@ -21,6 +17,9 @@
 }
 
 .header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     background-color: white;

@@ -1,4 +1,10 @@
 .app{
-    background-color: #fafafa;
+    background-color: hsl(0, 0%, 98%);
     height: 100vh;
+}
+
+.app__posts{
+    padding: 20px;
+    display: grid;
+    justify-content: center;
 }
